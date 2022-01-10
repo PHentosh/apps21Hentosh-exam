@@ -21,16 +21,17 @@ public class JSONApp {
         print(jMarks); // [3, 4]
 
         JsonPair name = new JsonPair("name", new JsonString("Andrii"));
-        JsonPair surname = new JsonPair("surname", new JsonString("Rodionov"));
+        JsonPair surname = new JsonPair("surname",
+                new JsonString("Rodionov"));
         JsonPair marks = new JsonPair("marks", jMarks);
         JsonPair year = new JsonPair("year", jYear);
         JsonObject jsonObj = new JsonObject(name, surname, year, marks);
-        print(jsonObj); // {'name': 'Andrii', 'surname': 'Rodionov', 'year': 2, 'marks': [3, 4]}
+        print(jsonObj);
 
-        print(jsonObj.projection("surname", "age", "year", "marks")); // {'surname': 'Rodionov', 'year': 2, 'marks': [3, 4]}
-
+        print(jsonObj.projection("surname", "age", "year", "marks"));
         BasicStudent basicStudent = new BasicStudent("Andrii", "Rodionov", 2);
-        print(basicStudent.toJsonObject()); // {'name': 'Andrii', 'surname': 'Rodionov', 'year': 2}
+        print(basicStudent.toJsonObject());
+        // {'name': 'Andrii', 'surname': 'Rodionov', 'year': 2}
 
     }
 

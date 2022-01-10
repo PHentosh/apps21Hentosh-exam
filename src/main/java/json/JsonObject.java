@@ -11,8 +11,8 @@ public class JsonObject extends Json {
 
     public JsonObject(JsonPair... jsonPairs) {
         lst = new ArrayList<>();
-        for (JsonPair v: jsonPairs){
-            if (find(v.key) != null){
+        for (JsonPair v: jsonPairs) {
+            if (find(v.key) != null) {
                 lst.remove(new JsonPair(v.key, find(v.key)));
             }
             lst.add(v);
@@ -39,15 +39,15 @@ public class JsonObject extends Json {
     }
 
     public void add(JsonPair jsonPair) {
-        if (find(jsonPair.key) != null){
+        if (find(jsonPair.key) != null) {
             lst.remove(new JsonPair(jsonPair.key, find(jsonPair.key)));
         }
         lst.add(jsonPair);
     }
 
     public Json find(String name) {
-        for (JsonPair val: lst){
-            if (val.key.equals(name)){
+        for (JsonPair val: lst) {
+            if (val.key.equals(name)) {
                 return val.value;
             }
         }
@@ -56,9 +56,9 @@ public class JsonObject extends Json {
 
     public JsonObject projection(String... names) {
         JsonObject jsonob = new JsonObject();
-        for (JsonPair val: lst){
-            for (String st: names){
-                if (val.key.equals(st)){
+        for (JsonPair val: lst) {
+            for (String st: names) {
+                if (val.key.equals(st)) {
                     jsonob.add(val);
                 }
             }
