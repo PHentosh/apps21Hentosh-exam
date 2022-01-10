@@ -1,7 +1,13 @@
 package app;
 
-import domain.*;
-import json.*;
+import domain.BasicStudent;
+import json.Json;
+import json.JsonArray;
+import json.JsonBoolean;
+import json.JsonNumber;
+import json.JsonObject;
+import json.JsonPair;
+import json.JsonString;
 
 /**
  * Created by Andrii_Rodionov on 1/3/2017.
