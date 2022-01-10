@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework2/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImmutableCollections/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.JSONAppTest">
@@ -134,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641800928682</updated>
       <workItem from="1641800930220" duration="15032000" />
-      <workItem from="1641818025142" duration="315000" />
+      <workItem from="1641818025142" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="some imports">
       <created>1641813913494</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641818139180</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Init">
+      <created>1641818436130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641818436130</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
