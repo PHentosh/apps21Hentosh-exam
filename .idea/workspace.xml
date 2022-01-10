@@ -29,7 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TemperatureSeries/TemperatureSeries/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.JSONAppTest">
+  <component name="RunManager" selected="JUnit.JSONAppTest.testmain">
     <configuration name="BasicStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonConvertor" />
       <extension name="coverage">
@@ -60,6 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONAppTest.testmain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonConvertor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="app" />
+      <option name="MAIN_CLASS_NAME" value="app.JSONAppTest" />
+      <option name="METHOD_NAME" value="testmain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonObjectAddFindProjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonConvertor" />
       <extension name="coverage">
@@ -71,22 +87,6 @@
       <option name="PACKAGE_NAME" value="json" />
       <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonObjectToJsonTest.testToJsonPairsWithSeveralPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonConvertor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="json" />
-      <option name="MAIN_CLASS_NAME" value="json.JsonObjectToJsonTest" />
-      <option name="METHOD_NAME" value="testToJsonPairsWithSeveralPairs" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONAppTest.testmain" />
         <item itemvalue="JUnit.JSONAppTest" />
         <item itemvalue="JUnit.StudentTest" />
         <item itemvalue="JUnit.JsonObjectAddFindProjectionTest" />
         <item itemvalue="JUnit.BasicStudentTest" />
-        <item itemvalue="JUnit.JsonObjectToJsonTest.testToJsonPairsWithSeveralPairs" />
       </list>
     </recent_temporary>
   </component>

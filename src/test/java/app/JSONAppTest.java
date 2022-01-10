@@ -24,4 +24,9 @@ public class JSONAppTest {
 
         JSONAssert.assertEquals(expectedJSON, jsonObject.toJson(), true);
     }
+
+    @Test
+    public void testmain(){
+        JSONApp.main(new String[]{"",""});
+    }
 }
