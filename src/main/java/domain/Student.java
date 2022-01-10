@@ -30,20 +30,20 @@ public class Student extends BasicStudent {
         int i = 0;
         for (Tuple val: exams) {
             JsonObject jpb;
-            if ((Integer)val.value >= 3) {
+            if ((Integer) val.value >= 3) {
                 jpb = new JsonObject(
                         new JsonPair("course",
-                                new JsonString((String)val.key)),
+                                new JsonString((String) val.key)),
                         new JsonPair("mark",
-                                new JsonNumber((Integer)val.value)),
+                                new JsonNumber((Integer) val.value)),
                         new JsonPair("passed", new JsonBoolean(true))
                 );
             } else {
                 jpb = new JsonObject(
                         new JsonPair("course",
-                                new JsonString((String)val.key)),
+                                new JsonString((String) val.key)),
                         new JsonPair("mark",
-                                new JsonNumber((Integer)val.value)),
+                                new JsonNumber((Integer) val.value)),
                         new JsonPair("passed", new JsonBoolean(false))
                 );
             }
