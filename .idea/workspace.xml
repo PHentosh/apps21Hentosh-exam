@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6a82fe3-ae85-473d-a93b-e566ffdaedb4" name="Changes" comment="Some" />
+    <list default="true" id="d6a82fe3-ae85-473d-a93b-e566ffdaedb4" name="Changes" comment="Init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework2/pom.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -135,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641800928682</updated>
       <workItem from="1641800930220" duration="15032000" />
+      <workItem from="1641818025142" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="some imports">
       <created>1641813913494</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641817253956</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Init">
+      <created>1641818139180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641818139180</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,13 +215,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding project" />
     <MESSAGE value="some imports" />
     <MESSAGE value="pow file" />
     <MESSAGE value="Some" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some" />
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
